@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Luas Bangun Datar</title>
+</head>
+<body>
+    <h2>Menghitung Luas Persegi Panjang, Bujur Sangkar, dan Segitiga</h2>
+    <script>
+        // Fungsi untuk menghitung luas persegi panjang
+        function luasPersegiPanjang(panjang, lebar) {
+            document.write("Panjang : " + panjang + ", Lebar : " + lebar + "<br>");
+            return panjang * lebar; // Panjang dikali lebar
+        }
+
+        // Fungsi untuk menghitung luas bujur sangkar
+        function luasBujurSangkar(sisi) {
+            document.write("Sisi : " + sisi + "<br>");
+            return sisi * sisi; // Sisi dikali sisi
+        }
+
+        // Fungsi untuk menghitung luas segitiga
+        function luasSegitiga(alas, tinggi) {
+            document.write("Alas : " + alas + ", Tinggi : " + tinggi + "<br>");
+            return (alas * tinggi) / 2; // Alas dikali tinggi dibagi 2
+        }
+
+        // Contoh penggunaan fungsi dengan nilai yang telah ditentukan
+        let panjang = 2;
+        let lebar = 8;
+        let sisi = 7;
+        let alas = 6;
+        let tinggi = 8;
+
+        document.write("Luas Persegi Panjang : " + luasPersegiPanjang(panjang, lebar) + "<br><br>");
+        document.write("Luas Bujur Sangkar : " + luasBujurSangkar(sisi) + "<br><br>");
+        document.write("Luas Segitiga : " + luasSegitiga(alas, tinggi) + "<br><br>");
+    </script>
+</body>
+</html>
