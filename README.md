@@ -1,1 +1,2 @@
-# FWD-SIB-Mandiri-2025
+Nama : Firdaus Syafiq
+Universitas : Universitas Amikom Purwokerto
