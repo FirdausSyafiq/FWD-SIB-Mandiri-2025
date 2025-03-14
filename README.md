@@ -1,2 +1,2 @@
-Nama : Firdaus Syafiq
+Nama : Firdaus Syafiq  
 Universitas : Universitas Amikom Purwokerto
