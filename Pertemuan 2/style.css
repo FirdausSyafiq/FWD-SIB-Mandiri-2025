@@ -1,0 +1,27 @@
+body {
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+th {
+    text-align: center;
+}
+.custom-button {
+    background-color: #78B3CE; 
+    color: white;
+    border: none;
+}
+.custom-button:hover {
+    background-color: #3da5ce;
+    color: white;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #bb2d3b;
+}
