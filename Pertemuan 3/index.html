@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Produk Toko</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Manajemen Produk Toko</h1>
+
+    <div class="row">
+        <div class="col-md-5 mx-auto mt-4">
+            <h3>Daftar Produk Toko</h3>
+            <ul id="daftar-produk" class="list-group mt-3"></ul>
+        </div>
+    
+        <div class="col-md-5 mx-auto mt-4">
+            <h3>Tambah Produk</h3>
+            <div class="card shadow-sm">
+                <input type="text" id="nama" class="form-control mb-2" placeholder="Nama Produk">
+                <input type="number" id="harga" class="form-control mb-2" placeholder="Harga">
+                <input type="number" id="stok" class="form-control mb-2" placeholder="Stok">
+                <button type="submit" class="btn custom-button w-100" onclick="tambahProduk()">Tambah</button>
+            </div>
+
+            <h3>Hapus Produk</h3>
+            <div class="card shadow-sm">
+                <input type="number" id="idProduk" class="form-control mb-2" placeholder="ID Produk">
+                <button class="btn btn-danger w-100" onclick="hapusProduk()">Hapus</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
