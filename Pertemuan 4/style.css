@@ -1,0 +1,28 @@
+body {
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url('https://www.gardaoto.com/wp-content/uploads/2022/02/Ingin-Buka-Usaha-Rental-Mobil-Ini-Syarat-Kelengkapannya.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-header {
+    background-color: #78B3CE;
+}
+.custom-button {
+    background-color: #78B3CE; 
+    color: white;
+    border: none;
+}
+.custom-button:hover {
+    background-color: #3da5ce;
+    color: white;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #bb2d3b;
+}
